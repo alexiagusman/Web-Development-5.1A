@@ -1,0 +1,21 @@
+/* Navbar container for Navigation menu */
+.navbar-container {
+    border: 2px solid #ccc;
+    /*Using border radius to make it curve*/
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+/* Clickable Logo image */
+.navbar-brand img {
+    height: 40px;
+}
+
+/* Navigation menu buttons */
+.nav-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
