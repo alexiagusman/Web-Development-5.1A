@@ -22,7 +22,7 @@
                         <a class="navbar-brand" href="homepage.html">
                             <img src="../images/logo.png" alt="Logo">
                         </a>
-
+                        <!-- Navigation buttons for smaller devices-->
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
 
                         <!-- Navigation buttons -->
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-buttons fw-bold">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-buttons fw-bold font-lora">
                                 <li class="nav-item">
                                     <a class="nav-link text-dark mx-2 px-4 active" href="adoptpage.html">Adopt a Pet</a>
                                 </li>
@@ -58,55 +58,59 @@
                     <!-- First Row -->
                     <div class="row mb-3">
                         <div class="col-md-4">
-                            <label for="first-name" class="form-label text-black  form-buttons fw-bold">First
+                            <label for="first-name" class="form-label text-black  form-buttons font-lora fw-bold">First
                                 Name*</label>
-                            <input type="text" class="form-control border border-dark form-buttons text-grey"
+                            <input type="text" class="form-control border border-dark form-buttons font-lora text-grey"
                                 id="first-name" name="first-name" placeholder="Enter your name" required>
                         </div>
                         <div class="col-md-4">
-                            <label for="last-name" class="form-label text-black  form-buttons fw-bold">Last
+                            <label for="last-name" class="form-label text-black  form-buttons font-lora fw-bold">Last
                                 Name*</label>
-                            <input type="text" class="form-control border border-dark  form-buttons " id="last-name"
-                                name="last-name" placeholder="Enter your last name" required>
+                            <input type="text" class="form-control border border-dark  form-buttons font-lora "
+                                id="last-name" name="last-name" placeholder="Enter your last name" required>
                         </div>
                         <div class="col-md-4">
-                            <label for="age" class="form-label text-black  form-buttons fw-bold">Age*</label>
-                            <input type="number" class="form-control border border-dark form-buttons " id="age"
-                                name="age" placeholder="Enter your age" required>
+                            <label for="age" class="form-label text-black  form-buttons font-lora fw-bold">Age*</label>
+                            <input type="number" class="form-control border border-dark form-buttons font-lora "
+                                id="age" name="age" placeholder="Enter your age" required>
                         </div>
                     </div>
 
                     <!-- Second Row -->
                     <div class="row mb-3">
                         <div class="col-md-6 ">
-                            <label for="contact-number" class="form-buttons text-black fw-bold form-label">Contact
+                            <label for="contact-number"
+                                class="form-buttons font-lora text-black fw-bold form-label">Contact
                                 Number*</label>
-                            <input type="tel" class=" form-buttons border border-dark  form-control" id="contact-number"
-                                name="contact-number" placeholder="Enter your number" required>
+                            <input type="tel" class=" form-buttons font-lora border border-dark  form-control"
+                                id="contact-number" name="contact-number" placeholder="Enter your number" required>
                         </div>
                         <div class="col-md-6">
-                            <label for="email" class="form-label text-black form-buttons fw-bold">Email*</label>
-                            <input type="email" class="form-control form-buttons border border-dark " id="email"
-                                name="email" placeholder="Enter your email address" required>
+                            <label for="email"
+                                class="form-label text-black form-buttons font-lora fw-bold">Email*</label>
+                            <input type="email" class="form-control form-buttons font-lora border border-dark "
+                                id="email" name="email" placeholder="Enter your email address" required>
                         </div>
                     </div>
 
                     <!-- Third Row -->
                     <div class="row mb-3">
                         <div class="col-md-6">
-                            <label for="own-pets" class="form-labeltext-black  form-buttons fw-bold">Do you own other
+                            <label for="own-pets" class="form-labeltext-black  form-buttons font-lora fw-bold">Do you
+                                own other
                                 pets?</label>
-                            <select class="form-select form-buttons border border-dark" id="own-pets" name="own-pets"
-                                required>
+                            <select class="form-select form-buttons font-lora border border-dark" id="own-pets"
+                                name="own-pets" required>
                                 <option value="" selected disabled>Select an option</option>
                                 <option value="Yes">Yes</option>
                                 <option value="No">No</option>
                             </select>
                         </div>
                         <div class="col-md-6">
-                            <label for="outdoor-area" class="form-label form-buttons text-black fw-bold">Do you have an
+                            <label for="outdoor-area" class="form-label form-buttons font-lora text-black fw-bold">Do
+                                you have an
                                 outdoor area?</label>
-                            <select class="form-select form-buttons border border-dark" id="outdoor-area"
+                            <select class="form-select form-buttons font-lora border border-dark" id="outdoor-area"
                                 name="outdoor-area" required>
                                 <option value="" selected disabled>Select an option</option>
                                 <option value="Yes">Yes</option>
@@ -117,21 +121,22 @@
 
                     <!-- Message box -->
                     <div class="mb-3">
-                        <label for="message" class="form-label form-buttons fw-bold">Message*</label>
-                        <textarea class="form-control form-buttons border border-dark" id="message" name="message"
-                            rows="5" placeholder="Enter any questions or comments here..." required></textarea>
+                        <label for="message" class="form-label form-buttons font-lora fw-bold">Message*</label>
+                        <textarea class="form-control form-buttons  font-lora border border-dark" id="message"
+                            name="message" rows="5" placeholder="Enter any questions or comments here..."
+                            required></textarea>
                     </div>
 
                     <!-- Submit button -->
                     <div class="text-center">
                         <button type="submit"
-                            class="btn btn-primary submit-button rounded-3 fw-bold text-white">Submit</button>
+                            class="btn btn-primary submit-button font-lora rounded-3 fw-bold text-white">Submit</button>
                     </div>
                 </fieldset>
             </form>
         </div>
 
-
+        <!-- Script for bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
             crossorigin="anonymous"></script>

@@ -14,47 +14,95 @@
 
 <body>
     <div class="background-image">
-    <header>
-        <div class="navbar-container container mx-auto">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <!-- Logo as image -->
-                    <a class="navbar-brand" href="homepage.html">
-                        <img src="../images/logo.png" alt="Logo">
-                    </a>
+        <header>
+            <div class="navbar-container container mx-auto">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <!-- Logo as image -->
+                        <a class="navbar-brand" href="homepage.html">
+                            <img src="../images/logo.png" alt="Logo">
+                        </a>
+                        <!-- Navigation buttons for smaller devices-->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Navigation buttons --> 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-buttons fw-bold">
-                            <li class="nav-item">
-                                <a class="nav-link text-dark mx-2 px-4" href="adoptpage.html">Adopt a Pet</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark mx-2 px-4" href="profilepage.html">Pet Profiles</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark mx-2 px-4 active" href="storiespage.html">Success Stories</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark mx-2 px-4" href="contactpage.html">Contact Us</a>
-                            </li>
-                        </ul>
+                        <!-- Navigation buttons -->
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-buttons fw-bold font-lora">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark mx-2 px-4" href="adoptpage.html">Adopt a Pet</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark mx-2 px-4" href="profilepage.html">Pet Profiles</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark mx-2 px-4 active" href="storiespage.html">Success
+                                        Stories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark mx-2 px-4" href="contactpage.html">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Success Stories -->
+        <div class="container">
+            <!-- First row -->
+            <div class="row g-4 mt-3 justify-content-around">
+                <div class="col-md-4 ">
+                    <img src="../images/10.png" class="card-img-top" alt="...">
+                    <h4 class="mt-4 ms-4 sub-title fs-4 font-arial" style="background-color: #f9f4ec; ">Max - Joy found
+                        in every splash</h4>
+                    <p class=" ms-4 sub-title font-arial text-center fs-6 " style="background-color: #f9f4ec; ">
+                        Shy at first, now fearless in the water. <br> Every splash says, "I'm home."
+                    </p>
                 </div>
-            </nav>
+
+                <div class="col-md-4">
+                    <img src="../images/11.png" class="card-img-top" alt="...">
+                    <h4 class="mt-4 ms-4 sub-title fs-5 font-arial">Daisy - Love healed what fear once held</h4>
+                    <p class=" ms-4 sub-title font-arial text-center fs-6">
+                        Once timid, now full of trust. <br> Her eyes say, "I'm safe now."
+                    </p>
+                </div>
+            </div>
+
+            <!-- Second row -->
+            <div class="row g-4 mt-3 justify-content-around">
+                <div class="col-md-4">
+                    <img src="../images/12.png" class="card-img-top" alt="...">
+                    <h4 class="mt-4 ms-4 sub-title  font-arial fs-4">Buddy - Loyalty in every glance</h4>
+                    <p class="ms-4 sub-title font-arial fs-6 text-center">
+                        Once unsure, now the first to greet you at the door. Every tail wag says, "You're my person."
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="../images/13.png" class="card-img-top" alt="...">
+                    <h4 class="mt-4 ms-4 sub-title font-arial fs-4">Mochi - Calm in a world of chaos</h4>
+                    <p class=" ms-4 sub-title font-arial fs-6 text-center">
+                        Once distant, now the king of cozy corners. <br> Every purr says, "This is where I belong."
+                    </p>
+                </div>
+            </div>
+
+            <!-- More Stories Button -->
+            <div class="text-center mt-4">
+                <a class="btn btn-primary submit-button font-lora rounded-3 fw-bold text-white">More Stories</a>
+            </div>
         </div>
-    </header>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
-        crossorigin="anonymous"></script>
+        <!-- Script for bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu"
+            crossorigin="anonymous"></script>
     </div>
 </body>
 
